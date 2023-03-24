@@ -52,3 +52,4 @@ stu2 = Student('b', 20, 123)
 s = stu1 + stu2
 print(s)
 print('tt')
+print('push test')
