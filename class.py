@@ -51,5 +51,3 @@ stu2 = Student('b', 20, 123)
 # print(stu1.__dict__)
 s = stu1 + stu2
 print(s)
-print(s)
-print(s)
