@@ -99,9 +99,16 @@ asd
 #             char_counts[char] = 1
 #     return char_counts
 
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def __lt__(self, other):
+        return self.age < other.age
+stu1 = Student('a', 12)
+stu2 = Student('asd', 213)
+print(stu1 > stu2)
+print(stu1 < stu2)
 
-lst=[]
-for i in range(6):
-    lst.append(i)
-print(lst)
+
 

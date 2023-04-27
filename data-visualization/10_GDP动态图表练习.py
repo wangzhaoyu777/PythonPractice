@@ -53,7 +53,7 @@ for year in sorted_year_list:
     bar.add_yaxis('GDP(亿)', y_data, label_opts=LabelOpts(position='right'))
     # 反转x轴和y轴
     bar.reversal_axis()
-    # 设置每一年的图表的标题
+    # 设置每一年的图表的标
     bar.set_global_opts(
         title_opts=TitleOpts(title=f'{year}年全球前8 GDP数据展示')
     )
