@@ -6,6 +6,7 @@ from Data_analysis_proj.data_define import Record
 
 
 class FileReader:
+    # 实现顶层控制，后续子类改写父类方法 read data
     def read_data(self) -> list[Record]:
         '''读取文件数据，把读取到的每一条都转换为Record类型的对象，将他们封装到list并返回'''
         pass

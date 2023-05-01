@@ -32,11 +32,11 @@ for record in all_data:
 # print(data_dict)
 # 可视化图标的开发
 bar = Bar(
-    init_opts=InitOpts(ThemeType.LIGHT))
+    init_opts=InitOpts(theme=ThemeType.LIGHT))
 
 bar.add_xaxis(list(data_dict.keys()))
 bar.add_yaxis('销售额',list(data_dict.values()), label_opts=LabelOpts(is_show=False))
 bar.set_global_opts(
-    title_opts=TitleOpts('每日销售额')
+    title_opts=TitleOpts(title='每日销售额')
 )
 bar.render('每日销售柱状图.html')
